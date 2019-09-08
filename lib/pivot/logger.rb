@@ -1,7 +1,7 @@
 require 'logger'
 
 module Pivot
-  class Logger
+  class Logger < Logger
     # Code here!
   end
 end
