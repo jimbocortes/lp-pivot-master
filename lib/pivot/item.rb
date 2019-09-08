@@ -1,6 +1,7 @@
 module Pivot
   class Item
-    attr_reader :name, :assignee, :points
+    attr_reader :name, :points
+    attr_accessor :assignee
 
     def initialize(attributes={})
       @name = attributes[:name]
